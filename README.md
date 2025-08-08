@@ -174,4 +174,3 @@ Engenheiro de Dados | SQL | ETL | Python — Focado em soluções de dados, ETL,
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar.
-# Data-Mart-de-ndices-de-Desempenho-no-Atendimento-IDA-
