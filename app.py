@@ -6,16 +6,15 @@ from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 file_list = ['files/SCM2015.ods', 'files/SMP2015.ods', 'files/STFC2015.ods']
 
 # Conexão com o PostgreSQL
-DB_CONFIG = {
-    'user': 'postgres',
-    'password': 'beAnalytic',
-    'host': 'db',
-    'port': '5432',
-    'dbname': 'IDA'
-}
+
+user = 'postgres'
+password = 'beAnalytic'
+host = 'db'
+port = '5432'
+dbname = 'IDA'
+
 connection_string = (
-    f"postgresql+psycopg2://{DB_CONFIG['user']}:{DB_CONFIG['password']}@"
-    f"{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['dbname']}"
+    f"postgresql+psycopg2://{user}:{password}@{host}:{port}/{dbname}"
 )
 
 engine = create_engine(connection_string)
